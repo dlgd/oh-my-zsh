@@ -1,3 +1,5 @@
+# -*- sh -*-
+
 ## smart urls
 autoload -U url-quote-magic
 zle -N self-insert url-quote-magic
@@ -13,3 +15,5 @@ export PAGER="less"
 export LESS="-R"
 
 export LC_CTYPE=$LANG
+
+export EDITOR="emacsclient -c"

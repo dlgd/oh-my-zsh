@@ -24,3 +24,8 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+alias e='emacsclient -n -c'
+alias ne='emacs -nw'
+alias h='history'
+alias j='jobs -l'
+alias s='ssh'
