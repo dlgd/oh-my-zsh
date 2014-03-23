@@ -17,7 +17,6 @@ function take() {
   cd $1
 }
 
-<<<<<<< HEAD
 function e ()
 {
     if [[ -n "$DISPLAY" ]]; then
